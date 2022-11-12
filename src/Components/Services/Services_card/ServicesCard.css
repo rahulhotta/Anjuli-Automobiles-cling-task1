@@ -30,6 +30,7 @@
 }
 .servicesCard__icon {
   font-size: 3rem;
+  margin: 10px auto;
   color: var(--thirdColor);
 }
 .servicesCard__heading{
