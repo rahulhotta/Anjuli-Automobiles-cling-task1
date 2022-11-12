@@ -1,6 +1,12 @@
 body{
-    background-color: black !important;
+    background-color: rgb(0, 30, 69) !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+  --bgAccent: rgb(0, 30, 69);
+  --cardBg: rgb(0, 21, 47);
+  --thirdColor:rgb(135, 255, 251);
 }

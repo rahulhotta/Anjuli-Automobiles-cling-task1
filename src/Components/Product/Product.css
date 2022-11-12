@@ -2,10 +2,10 @@
 .product__container {
   /* background-color: black; */
   background-image: linear-gradient(
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 1)
+      rgba(0, 30, 69, 1),
+      rgba(0, 30, 69, 0.7),
+      rgba(0, 30, 69, 0.7),
+      rgba(0, 30, 69, 1)
     ),
     url("../../Images/Bike-phone-bg1.jpeg");
   background-repeat: no-repeat;
@@ -24,11 +24,11 @@
   font-size: 2.8rem;
 }
 .product__heading__first {
-  color: rgb(89, 219, 255);
+  color: var(--thirdColor);
 }
 
 .product__heading__second {
-  border-bottom: 6px solid rgb(89, 219, 255);
+  border-bottom: 6px solid var(--thirdColor);
 }
 .product__list__container {
   margin-top: 20px;
@@ -42,10 +42,10 @@
   .product__container {
     /* background-color: black; */
     background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 1)
+        rgba(0, 30, 69, 1),
+        rgba(0, 30, 69, 0.7),
+        rgba(0, 30, 69, 0.7),
+        rgba(0, 30, 69, 1)
       ),
       url("../../Images/Bike-bg3.jpeg");
   }

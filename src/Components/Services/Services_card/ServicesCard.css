@@ -14,7 +14,7 @@
   justify-content: center;
   width: 70vw;
   margin: 20px auto;
-  background-color: rgb(17, 17, 17);
+  background-color: var(--cardBg);
   color: white;
   border: 2px solid gray;
   border-radius: 20px;
@@ -26,11 +26,11 @@
   transform: scale(1.05);
 }
 .servicesCard__container:hover {
-  color: rgb(89, 219, 255);
+  color: var(--thirdColor);
 }
 .servicesCard__icon {
   font-size: 3rem;
-  color: rgb(89, 219, 255);
+  color: var(--thirdColor);
 }
 .servicesCard__heading{
     font-size: 1.8rem;
