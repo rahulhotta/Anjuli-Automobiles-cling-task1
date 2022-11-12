@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 .deals__container{
     color: white;
-    background-image: linear-gradient( rgb(0, 30, 69),
-                       rgb(88, 88, 88),rgb(88, 88, 88),rgb(0, 30, 69));
+    background-image: linear-gradient( var(--bgAccent),
+                       rgb(88, 88, 88),rgb(88, 88, 88),var(--bgAccent));
 }
 .deals__heading{
     font-family: 'Oswald', sans-serif;

@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 .product__container {
   /* background-color: black; */
-  background-image: linear-gradient(
-      rgba(0, 30, 69, 1),
-      rgba(0, 30, 69, 0.7),
-      rgba(0, 30, 69, 0.7),
-      rgba(0, 30, 69, 1)
-    ),
+  background-image: var(--gradient),
     url("../../Images/Bike-phone-bg1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,12 +36,7 @@
 @media screen and (min-width: 900px) {
   .product__container {
     /* background-color: black; */
-    background-image: linear-gradient(
-        rgba(0, 30, 69, 1),
-        rgba(0, 30, 69, 0.7),
-        rgba(0, 30, 69, 0.7),
-        rgba(0, 30, 69, 1)
-      ),
+    background-image: var(--gradient),
       url("../../Images/Bike-bg3.jpeg");
   }
 }
