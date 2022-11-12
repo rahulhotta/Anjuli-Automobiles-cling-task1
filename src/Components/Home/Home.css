@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+.home__container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 10vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 1)), url("../../Images/Bike-bg2.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    color: white;
+    margin: 0;
+}
+.home__heading__welcome{
+    color: rgb(89, 219, 255);
+}
+.home__heading__name{
+    margin: 10px auto;
+}
+.home__heading{
+    font-size: 3.1rem;
+    font-family: 'Oswald', sans-serif;
+}
+.home__para{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Xanh Mono', monospace;
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 900px) {
+  .home__container{
+    
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 1)), url("../../Images/Bike-bg.jpg");
+}
+}

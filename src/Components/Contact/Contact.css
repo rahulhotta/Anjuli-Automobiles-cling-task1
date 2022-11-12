@@ -1,0 +1,44 @@
+.Contact__container {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  margin: 50px auto;
+  margin-bottom: 0;
+  padding: 20px;
+  font-size: 1.1rem;
+  flex-wrap: wrap;
+  padding-bottom: 15vh;
+}
+b{
+  font-size: 1.3rem;
+}
+.Contact__social{
+  margin: 10px 0;
+  margin-right: 3vw;
+}
+.Contact__icon{
+  margin: 5px;
+  color: aqua;
+}
+.Conatct__support{
+  margin: 10px 0;
+  margin-right: 3vw;
+}
+.Contact__about{
+  margin: 10px 0;
+  margin-right: 3vw;
+}
+.Contact__legal{
+  margin: 10px 0;
+  margin-right: 3vw;
+}
+.Contact__mobile1{
+  margin: 10px 0;
+  margin-right: 3vw;
+}
+
+
+
+

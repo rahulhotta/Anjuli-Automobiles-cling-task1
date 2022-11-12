@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+.services__container {
+  /* background-color: black; */
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../../Images/Bike-phone-bg2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services__heading {
+  font-family: "Oswald", sans-serif;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0;
+  font-size: 2.8rem;
+}
+.services__heading__first {
+  color: rgb(89, 219, 255);
+}
+
+.services__heading__second {
+  border-bottom: 6px solid rgb(89, 219, 255);
+}
+@media screen and (min-width: 900px) {
+  .services__container {
+  /* background-color: black; */
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../../Images/Bike-bg4.jpeg");
+}
+}

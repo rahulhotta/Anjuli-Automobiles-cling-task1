@@ -1,0 +1,47 @@
+.navBar__container {
+  position: fixed;
+  left: 5%;
+  bottom: 5%;
+  z-index: 100;
+  width: 90vw;
+  display: flex;
+  align-items: center ;
+  justify-content: space-between ;
+  padding: 5px 20px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.navBar__icon {
+  display: flex;
+  text-decoration: none ;
+  /* color: rgb(7, 7, 7) ; */
+  /* color: rgb(3, 200, 255) ; */
+  color: white;
+  background-color: black;
+  font-size: 1.9rem ;
+  border: 2px solid black;
+  /* border: 3px solid white; */
+  border-radius: 50px;
+  padding: 5px ;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.navBar__icon:hover {
+  background-color: rgb(29, 29, 29);
+  border: 2px solid rgb(89, 219, 255);
+  color: rgb(89, 219, 255) ;
+}
+a.active{
+   background-color: rgb(29, 29, 29);
+  border: 2px solid rgb(89, 219, 255);
+  color: rgb(89, 219, 255) ;
+}
+@media screen and (min-width: 990px) {
+  .navBar__container {
+    left: 30%;
+    width: 40vw;
+  }
+}

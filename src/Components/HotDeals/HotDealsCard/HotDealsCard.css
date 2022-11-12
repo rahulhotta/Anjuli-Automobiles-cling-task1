@@ -1,0 +1,46 @@
+.dealsCard__container {
+  width: 90vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 30px;
+  color: white;
+}
+.dealsCard__image__container {
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.dealsCard__image {
+  width: 70vw;
+  height: 25vh;
+  border: 2px solid gray;
+  border-radius: 30px;
+  margin: 10px;
+  transition: transform 0.4s ease;
+}
+
+
+.dealsCard__image:hover {
+  transform: scale(1.12);
+}
+
+@media screen and (min-width: 990px) {
+  .dealsCard__container {
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .dealsCard__image {
+    width: 50vw;
+    height: 60vh;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 10px;
+  }
+}
