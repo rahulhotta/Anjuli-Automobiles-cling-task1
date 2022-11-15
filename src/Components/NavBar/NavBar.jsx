@@ -7,75 +7,68 @@ import { FaHandshake } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { useState } from "react";
 
-
 function NavBar() {
-
   const [name, setName] = useState("Home");
   return (
     <div>
       <nav className="navBar__container">
         <a
           href="#Home"
-          className={
-            name === "Home" ? "navBar__icon active" : "navBar__icon"
-          }
           onClick={() => {
             setName("Home");
           }}
+          className={name === "Home" ? "navBar__link active" : "navBar__link"}
         >
-          <AiFillHome /> 
+          <AiFillHome className="navBar__icon" />
+          <span className="navBar__text">HOME</span>
         </a>
         <a
           href="#Products"
-          className={
-            name === "Products"
-              ? "navBar__icon active"
-              : "navBar__icon"
-          }
           onClick={() => {
             setName("Products");
           }}
+          className={
+            name === "Products" ? "navBar__link active" : "navBar__link"
+          }
         >
-          <RiMotorbikeFill />
+          <RiMotorbikeFill className="navBar__icon" />
+          <span className="navBar__text">PRODUCTS</span>
         </a>
         <a
           href="#Services"
-          className={
-            name === "Services"
-              ? "navBar__icon active"
-              : "navBar__icon"
-          }
           onClick={() => {
             setName("Services");
           }}
+          className={
+            name === "Services" ? "navBar__link active" : "navBar__link"
+          }
         >
-          <MdOutlineDesignServices />
+          <MdOutlineDesignServices className="navBar__icon" />
+          <span className="navBar__text">SERVICES</span>
         </a>
         <a
           href="#HotDeals"
-          className={
-            name === "HotDeals"
-              ? "navBar__icon active"
-              : "navBar__icon"
-          }
           onClick={() => {
             setName("HotDeals");
           }}
+          className={
+            name === "HotDeals" ? "navBar__link active" : "navBar__link"
+          }
         >
-          <FaHandshake />
+          <FaHandshake className="navBar__icon" />
+          <span className="navBar__text">DEALS</span>
         </a>
         <a
           href="#contact"
-          className={
-            name === "contact"
-              ? "navBar__icon active"
-              : "navBar__icon"
-          }
           onClick={() => {
             setName("contact");
           }}
+          className={
+            name === "contact" ? "navBar__link active" : "navBar__link"
+          }
         >
-          <IoMdContact />
+          <IoMdContact className="navBar__icon" />
+          <span className="navBar__text">CONTACT</span>
         </a>
       </nav>
     </div>
